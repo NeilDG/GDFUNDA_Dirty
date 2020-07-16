@@ -20,4 +20,9 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("I am Neil.");
     }
+
+    private void Print_Hackerman()
+    {
+        Debug.Log("I am JC the hacker");
+    }
 }
