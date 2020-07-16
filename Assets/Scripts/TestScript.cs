@@ -13,16 +13,11 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void Print_Neil()
     {
         Debug.Log("I am Neil.");
-    }
-
-    private void Print_Gian()
-    {
-        Debug.Log("Hewwo OwO I am Gian UwU");
     }
 }
