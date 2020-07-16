@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
 public class TestScript : MonoBehaviour
@@ -9,6 +8,7 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         this.Print_Neil();
+        this.Print_Lo();
     }
 
     // Update is called once per frame
@@ -22,8 +22,7 @@ public class TestScript : MonoBehaviour
         Debug.Log("I am Neil.");
     }
 
-    private void Print_Bruce()
-    {
-        Debug.Log("Bruise");
+    private void Print_Lo() {
+        Debug.Log("I am Jacob");
     }
 }
