@@ -8,6 +8,7 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         this.Print_Neil();
+        this.Print_Marielle();
         this.Print_Lo();
     }
 
@@ -22,7 +23,12 @@ public class TestScript : MonoBehaviour
         Debug.Log("I am Neil.");
     }
 
-    private void Print_Lo() {
+    private void Print_Marielle()
+    {
+        Debug.Log("I am Marielle.");
+    }
+    private void Print_Lo() 
+    {
         Debug.Log("I am Jacob");
     }
 }
