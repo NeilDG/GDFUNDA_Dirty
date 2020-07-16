@@ -7,6 +7,7 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.PrintGarret();
         this.Print_Neil();
         this.Print_Marielle();
         this.Print_Lo();
@@ -17,6 +18,11 @@ public class TestScript : MonoBehaviour
     void Update()
     {
 
+    }
+
+    private void PrintGarret()
+    {
+        Debug.Log("This is Garret");
     }
 
     private void Print_Neil()
