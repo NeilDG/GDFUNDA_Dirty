@@ -8,6 +8,7 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         this.Print_Neil();
+        this.Print_Hackerman();
     }
 
     // Update is called once per frame
