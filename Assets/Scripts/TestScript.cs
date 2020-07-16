@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class TestScript : MonoBehaviour
@@ -19,5 +20,10 @@ public class TestScript : MonoBehaviour
     private void Print_Neil()
     {
         Debug.Log("I am Neil.");
+    }
+
+    private void Print_Bruce()
+    {
+        Debug.Log("Bruise");
     }
 }
