@@ -8,6 +8,7 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         this.Print_Neil();
+        this.Print_DaeHan();
     }
 
     // Update is called once per frame
@@ -20,4 +21,10 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("I am Neil.");
     }
+
+    private void Print_DaeHan()
+    {
+        Debug.Log("I am DaeHan.");
+    }
+
 }
