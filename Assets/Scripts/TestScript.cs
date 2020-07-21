@@ -27,7 +27,7 @@ public class TestScript : MonoBehaviour
 
     private void Print_Neil()
     {
-        Debug.Log("I am Neil.");
+        Debug.Log("I am Neil Del Gallego! Wahahaha.");
     }
 
     private void Print_Gian(){
