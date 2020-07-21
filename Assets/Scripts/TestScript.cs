@@ -13,7 +13,10 @@ public class TestScript : MonoBehaviour
         this.Print_Lo();
         this.Print_Gian();
         this.Print_Manzano();
+<<<<<<< HEAD
+=======
         this.Print_Paolo();
+>>>>>>> 4f51226a8ad2d503d914b6829c338a86ec6d8d3a
         this.Print_Raina();
         this.Print_Lanz();
         this.Print_Nathan();
@@ -54,7 +57,11 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("I am the Jacob from the Manila Campus");
     }
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 4f51226a8ad2d503d914b6829c338a86ec6d8d3a
     private void Print_Raina()
     {
         Debug.Log("This is Raina :^)");
