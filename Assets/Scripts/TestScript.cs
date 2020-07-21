@@ -12,6 +12,7 @@ public class TestScript : MonoBehaviour
         this.Print_Marielle();
         this.Print_Lo();
         this.Print_Gian();
+        this.Print_Lanz();
     }
 
     // Update is called once per frame
@@ -42,5 +43,11 @@ public class TestScript : MonoBehaviour
     private void Print_Lo() 
     {
         Debug.Log("I am Jacob");
+    }
+
+    private void Print_Lanz()
+    {
+        string name = "Lanz";
+        Debug.Log($"Howdy! This is <color=red>{name}</color>");
     }
 }
