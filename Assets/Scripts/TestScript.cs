@@ -12,7 +12,15 @@ public class TestScript : MonoBehaviour
         this.Print_Marielle();
         this.Print_Lo();
         this.Print_Gian();
+<<<<<<< HEAD
         this.Print_Manzano();
+=======
+        this.Print_Raina();
+        this.Print_Lanz();
+        this.Print_Nathan();
+        this.Print_Richmond();
+        this.Print_Warren();
+>>>>>>> origin/dev
     }
 
     // Update is called once per frame
@@ -43,9 +51,38 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("I am Jacob");
     }
+<<<<<<< HEAD
 
     private void Print_Manzano()
     {
         Debug.Log("I am the Jacob from the Manila Campus");
+=======
+    
+    private void Print_Raina()
+    {
+        Debug.Log("This is Raina :^)");
+    }
+
+    private void Print_Lanz()
+    {
+        string name = "Lanz";
+        Debug.Log($"<b>Howdy!</b> This is <color=red>{name}</color>");
+
+    }
+
+    private void Print_Nathan()
+    {
+        Debug.Log("I am Nathan");
+    }
+
+    private void Print_Richmond()
+    {
+        Debug.Log("I Am Richmond");
+    }
+
+    private void Print_Warren()
+    {
+        Debug.Log("Woah, it is Warren");
+>>>>>>> origin/dev
     }
 }
