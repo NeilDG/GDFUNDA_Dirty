@@ -12,6 +12,7 @@ public class TestScript : MonoBehaviour
         this.Print_Marielle();
         this.Print_Lo();
         this.Print_Gian();
+        this.Print_Lanz();
         this.Print_Nathan();
         this.Print_Richmond();
         this.Print_Warren();
@@ -45,6 +46,13 @@ public class TestScript : MonoBehaviour
     private void Print_Lo() 
     {
         Debug.Log("I am Jacob");
+    }
+
+    private void Print_Lanz()
+    {
+        string name = "Lanz";
+        Debug.Log($"<b>Howdy!</b> This is <color=red>{name}</color>");
+
     }
 
     private void Print_Nathan()
