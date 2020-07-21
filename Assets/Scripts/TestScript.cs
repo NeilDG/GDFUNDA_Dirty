@@ -12,6 +12,7 @@ public class TestScript : MonoBehaviour
         this.Print_Marielle();
         this.Print_Lo();
         this.Print_Gian();
+        this.Print_Manzano();
         this.Print_Paolo();
         this.Print_Raina();
         this.Print_Lanz();
@@ -40,7 +41,6 @@ public class TestScript : MonoBehaviour
         Debug.Log("Hewwo OwO I am Gian UwU");
     }
     
-
     private void Print_Marielle()
     {
         Debug.Log("I am Marielle.");
@@ -50,6 +50,10 @@ public class TestScript : MonoBehaviour
         Debug.Log("I am Jacob");
     }
 
+    private void Print_Manzano()
+    {
+        Debug.Log("I am the Jacob from the Manila Campus");
+    }
     
     private void Print_Raina()
     {
@@ -60,11 +64,11 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("PAOUWU");    
     }
+    
     private void Print_Lanz()
     {
         string name = "Lanz";
         Debug.Log($"<b>Howdy!</b> This is <color=red>{name}</color>");
-
     }
 
     private void Print_Nathan()
@@ -76,8 +80,7 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("I Am Richmond");
     }
-
-
+    
     private void Print_Warren()
     {
         Debug.Log("Woah, it is Warren");
