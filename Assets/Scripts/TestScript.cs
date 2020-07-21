@@ -12,6 +12,7 @@ public class TestScript : MonoBehaviour
         this.Print_Marielle();
         this.Print_Lo();
         this.Print_Gian();
+        this.Print_Philip();
     }
 
     // Update is called once per frame
