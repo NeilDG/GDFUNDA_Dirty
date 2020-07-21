@@ -43,4 +43,8 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("I am Jacob");
     }
+    private void Print_Philip()
+    {
+        Debug.Log("very the nice");
+    }
 }
