@@ -326,7 +326,11 @@ GameObject:
   - component: {fileID: 5570900793744896600}
   - component: {fileID: 9192276465929119806}
   m_Layer: 0
+<<<<<<< HEAD:Assets/Prefabs/Prefab_Neil.prefab
+  m_Name: Prefab_Neil
+=======
   m_Name: Sphere
+>>>>>>> b05869113db75a13205673883d72b0429ea6c61c:Assets/Prefabs/NeilPrefab.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
