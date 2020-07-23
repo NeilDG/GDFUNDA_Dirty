@@ -9,9 +9,7 @@ public class TestScript : MonoBehaviour
     {
         this.PrintGarret();
         this.Print_Neil();
-<<<<<<< HEAD
         this.Print_DaeHan();
-=======
         this.Print_Roi();
         this.Print_Marielle();
         this.Print_Lo();
@@ -23,7 +21,6 @@ public class TestScript : MonoBehaviour
         this.Print_Nathan();
         this.Print_Richmond();
         this.Print_Warren();
->>>>>>> master
     }
 
     // Update is called once per frame
