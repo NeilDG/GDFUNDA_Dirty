@@ -7,14 +7,23 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.PrintGarret();
         this.Print_Neil();
         this.Print_Roi();
+        this.Print_Marielle();
+        this.Print_Lo();
+        this.Print_Gian();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    private void PrintGarret()
+    {
+        Debug.Log("This is Garret");
     }
 
     private void Print_Neil()
@@ -27,4 +36,16 @@ public class TestScript : MonoBehaviour
         Debug.Log("I am Roi.");
     }
 
+    private void Print_Gian(){
+        Debug.Log("Hewwo OwO I am Gian UwU");
+    }
+    
+    private void Print_Marielle()
+    {
+        Debug.Log("I am Marielle.");
+    }
+    private void Print_Lo() 
+    {
+        Debug.Log("I am Jacob");
+    }
 }
