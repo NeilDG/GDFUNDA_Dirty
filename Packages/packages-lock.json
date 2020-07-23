@@ -20,10 +20,14 @@
       "source": "registry",
       "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "com.unity.test-framework": "1.1.3"
 =======
         "com.unity.test-framework": "1.1.1"
 >>>>>>> 12316e0deada3f5631e8b775ff171e0a974101a7
+=======
+        "com.unity.test-framework": "1.1.3"
+>>>>>>> b05869113db75a13205673883d72b0429ea6c61c
       },
       "url": "https://packages.unity.com"
     },
