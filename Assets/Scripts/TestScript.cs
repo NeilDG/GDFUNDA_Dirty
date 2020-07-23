@@ -9,6 +9,7 @@ public class TestScript : MonoBehaviour
     {
         this.PrintGarret();
         this.Print_Neil();
+        this.Print_Roi();
         this.Print_Marielle();
         this.Print_Lo();
         this.Print_Gian();
@@ -35,6 +36,11 @@ public class TestScript : MonoBehaviour
     private void Print_Neil()
     {
         Debug.Log("I am Neil Del Gallego! Wahahaha.");
+    }
+
+    private void Print_Roi()
+    {
+        Debug.Log("I am Roi.");
     }
 
     private void Print_Gian(){
